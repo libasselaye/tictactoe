@@ -1,0 +1,7 @@
+.*~
+.*.swp
+cpp/build
+cpp/doc
+js/tictactoe.js
+js/tictactoe.wasm
+
