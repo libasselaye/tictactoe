@@ -42,8 +42,6 @@ pages:
         - mkdir -p public/doc
         - cp index.html public/
         - cp -r cpp/doc/html/* public/doc/
-   artifacts:
-        paths: 
-		    - public
-		    
-		    
+  artifacts:
+    paths:
+      - public
