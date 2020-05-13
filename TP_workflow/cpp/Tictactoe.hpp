@@ -6,16 +6,24 @@
 
 enum Joueur { JOUEUR_VIDE, JOUEUR_ROUGE, JOUEUR_VERT, JOUEUR_EGALITE };
 
+/// \brief classe principale pour le tictactoe
+/// blabla toussa ..
 class Jeu {
     private:
         // TODO
 
     public:
-        // Constructeur à utiliser.
+        /// \brief Constructeur à utiliser.
         Jeu();
+
+        /// \brief vainqueur
+        ///
 
         // Retourne le vainqueur (ROUGE, VERT, EGALITE) ou VIDE si partie en cours.
         Joueur getVainqueur() const;
+
+        /// \brief retourne le joueir courant
+        ///
 
         // Retourne le joueur (ROUGE ou VERT) qui doit jouer.
         Joueur getJoueurCourant() const;
@@ -29,7 +37,8 @@ class Jeu {
         // joue le coup et retourne true.
         bool jouer(int i, int j);
 
-        // Réinitialise le jeu.
+        /// \brief Réinitialise le jeu.
+        ///
         void raz();
 
         friend std::ostream & operator<<(std::ostream & os, const Jeu & jeu);

@@ -1,0 +1,49 @@
+cpp_build: 
+    stage: build
+    image: alpine
+    before_script: 
+        - apk add build-base cmake cpputest g++ pkgconf
+    script:
+        - cd cpp
+        - mkdir build
+        - cd build
+        - cmake ..
+        - make
+    artifacts:
+        untracked: true
+ 
+cpp_doc: 
+    stage: build
+    image: alpine
+    before_script: 
+        - apk add build-base doxygen
+    script:
+        - cd cpp
+        - doxygen
+    artifacts:
+        untracked: true 
+        
+cpp_test: 
+    stage: test
+    image: alpine
+    before_script: 
+        - apk add build-base cpputest g++
+    dependencies: 
+        - cpp_build
+    script:
+        - cd cpp/build
+        - ./tictactoe-test
+
+        
+pages: 
+    stage: deploy
+    image: alpine
+    script: 
+        - mkdir -p public/doc
+        - cp index.html public/
+        - cp -r cpp/doc/html/* public/doc/
+   artifacts:
+        paths: 
+		    - public
+		    
+		    
