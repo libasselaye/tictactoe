@@ -5,6 +5,12 @@ Jeu::Jeu() {
 }
 
 void Jeu::raz() {
+    _plateau = {
+        {JOUEUR_VIDE,JOUEUR_VIDE,JOUEUR_VIDE},
+        {JOUEUR_VIDE,JOUEUR_VIDE,JOUEUR_VIDE},
+        {JOUEUR_VIDE,JOUEUR_VIDE,JOUEUR_VIDE}
+    }
+    }
     // TODO
 }
 

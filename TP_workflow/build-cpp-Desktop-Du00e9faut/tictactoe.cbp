@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tictactoe"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tictactoe-test">
+				<Option output="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/tictactoe-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 tictactoe-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tictactoe-test/fast">
+				<Option output="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/tictactoe-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 tictactoe-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tictactoe-cli">
+				<Option output="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/tictactoe-cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 tictactoe-cli"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tictactoe-cli/fast">
+				<Option output="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/tictactoe-cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 tictactoe-cli/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/tictactoe/TP_workflow/build-cpp-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/libasse/tictactoe/TP_workflow/cpp/Tictactoe.cpp">
+			<Option target="tictactoe-test"/>
+			<Option target="tictactoe-cli"/>
+		</Unit>
+		<Unit filename="/home/libasse/tictactoe/TP_workflow/cpp/Tictactoe.hpp">
+			<Option target="tictactoe-test"/>
+			<Option target="tictactoe-cli"/>
+		</Unit>
+		<Unit filename="/home/libasse/tictactoe/TP_workflow/cpp/TictactoeTest.cpp">
+			<Option target="tictactoe-test"/>
+		</Unit>
+		<Unit filename="/home/libasse/tictactoe/TP_workflow/cpp/tictactoe-cli.cpp">
+			<Option target="tictactoe-cli"/>
+		</Unit>
+		<Unit filename="/home/libasse/tictactoe/TP_workflow/cpp/tictactoe-test.cpp">
+			<Option target="tictactoe-test"/>
+		</Unit>
+		<Unit filename="/home/libasse/tictactoe/TP_workflow/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

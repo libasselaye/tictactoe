@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/libasse/tictactoe/TP_workflow/cpp/Tictactoe.cpp
+Tictactoe.hpp
+/home/libasse/tictactoe/TP_workflow/cpp/Tictactoe.hpp
+
+/home/libasse/tictactoe/TP_workflow/cpp/Tictactoe.hpp
+array
+-
+iostream
+-
+
+/home/libasse/tictactoe/TP_workflow/cpp/TictactoeTest.cpp
+Tictactoe.hpp
+/home/libasse/tictactoe/TP_workflow/cpp/Tictactoe.hpp
+sstream
+-
+CppUTest/CommandLineTestRunner.h
+-
+
+/home/libasse/tictactoe/TP_workflow/cpp/tictactoe-test.cpp
+CppUTest/CommandLineTestRunner.h
+-
+

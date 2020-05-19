@@ -1,47 +1,54 @@
-cpp_build: 
+# étapes à réaliser, selon le pipeline : Build -> Test -> Deploy
+
+# étape "cpp_build" : compile le projet C++
+cpp_build:
+    # c'est une étape de Build dans le pipeline
     stage: build
+    # il faut partir d'un conteneur docker "alpine"
     image: alpine
-    before_script: 
+    # on installe les paquets nécessaires dans le conteneur 
+    before_script:
         - apk add build-base cmake cpputest g++ pkgconf
+    # on lance ces commandes pour réaliser l'étape courante
     script:
         - cd cpp
         - mkdir build
         - cd build
         - cmake ..
-        - make
+        - make 
+    # on demande de conserver les nouveaux fichiers créés
     artifacts:
         untracked: true
- 
-cpp_doc: 
-    stage: build
-    image: alpine
-    before_script: 
-        - apk add build-base doxygen
-    script:
-        - cd cpp
-        - doxygen
-    artifacts:
-        untracked: true 
-        
-cpp_test: 
+
+# étape "cpp_test" : lance les tests unitaires du projet C++
+cpp_test:
+    # c'est une étape de Test dans le pipeline
     stage: test
-    image: alpine
-    before_script: 
-        - apk add build-base cpputest g++
+    # l'étape courante dépend de l'étape "cpp_build"
     dependencies: 
         - cpp_build
+    # il faut partir d'un conteneur docker "alpine"
+    image: alpine
+    # on installe les paquets nécessaires dans le conteneur 
+    before_script:
+        - apk add build-base cpputest g++
+    # on lance ces commandes pour réaliser l'étape courante
     script:
         - cd cpp/build
         - ./tictactoe-test
 
-        
-pages: 
+# crée et déploie une page web à une URL : https://<user>.gitlab.io/<repo>
+pages:
+    # c'est une étape de Deploy dans le pipeline
     stage: deploy
+    # il faut partir d'un conteneur docker "alpine"
     image: alpine
-    script: 
-        - mkdir -p public/doc
+    # on lance ces commandes pour réaliser l'étape courante
+    script:
+        - mkdir -p public
         - cp index.html public/
-        - cp -r cpp/doc/html/* public/doc/
-  artifacts:
-    paths:
-      - public
+    # on demande de conserver le dossier "public" (qui sera automatiquement déployé)
+    artifacts:
+        paths:
+            - public
+

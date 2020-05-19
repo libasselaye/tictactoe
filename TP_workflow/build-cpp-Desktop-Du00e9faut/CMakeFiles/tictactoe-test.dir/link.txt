@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/tictactoe-test.dir/tictactoe-test.cpp.o CMakeFiles/tictactoe-test.dir/Tictactoe.cpp.o CMakeFiles/tictactoe-test.dir/TictactoeTest.cpp.o  -o tictactoe-test -lstdc++ -lCppUTest -lCppUTestExt 

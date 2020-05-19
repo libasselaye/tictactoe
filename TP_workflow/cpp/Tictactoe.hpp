@@ -9,7 +9,8 @@ enum Joueur { JOUEUR_VIDE, JOUEUR_ROUGE, JOUEUR_VERT, JOUEUR_EGALITE };
 /// \brief classe principale pour le tictactoe
 /// blabla toussa ..
 class Jeu {
-    private:
+    public:
+    std::array<std::array,3> 3> _plateau;
         // TODO
 
     public:
