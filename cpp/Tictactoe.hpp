@@ -10,7 +10,7 @@ enum Joueur { JOUEUR_VIDE, JOUEUR_ROUGE, JOUEUR_VERT, JOUEUR_EGALITE };
 /// blabla toussa ..
 class Jeu {
     public:
-    //std::array<std::array,3> 3> _plateau;
+   // std::array<std::array<Joueur,3> ,3> _plateau;
         // TODO
 
     public:
